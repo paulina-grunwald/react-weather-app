@@ -1,4 +1,5 @@
 # react-weather-app
+This app was made using React and Redux.
 
 # Getting started
 
