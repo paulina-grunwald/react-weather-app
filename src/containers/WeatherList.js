@@ -15,13 +15,13 @@ class WeatherList extends Component {
           {name}
         </td>
         <td>
-          <Sparklines data={temperatures} color='blue' />
+          <Sparklines data={temperatures} color='blue' units='K' />
         </td>
         <td>
-          <Sparklines data={pressure} color='orange' />
+          <Sparklines data={pressure} color='orange' units='hPa' />
         </td>
         <td>
-          <Sparklines data={humidity} color='green' />
+          <Sparklines data={humidity} color='green' units='%' />
         </td>
 
       </tr>
@@ -34,9 +34,9 @@ class WeatherList extends Component {
         <thead>
           <tr>
             <th>City</th>
-            <th>Temperature</th>
-            <th>Pressure</th>
-            <th>City</th>
+            <th>Temperature [K]</th>
+            <th>Pressure [hPa]</th>
+            <th>Humidity [%]</th>
           </tr>
         </thead>
         <tbody>
